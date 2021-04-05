@@ -77,7 +77,7 @@ const Headers = () => {
           <div className="hero w-full flex flex-col md:flex-row mt-4">
             <div className="py-6 md:py-32 w-full lg:w-3/5 space-y-10 md:space-y-20 text-v-gray">
               <h1 className="text-2xl md:text-5xl font-semibold leading-tight text-v-black">
-                Build the future of financial <br/>services across <span>Africa.</span>
+                Build the future of financial <br/>services across <span className="text-v-africa">Africa.</span>
               </h1>
               <ul className="flex mt-4 md:mt-8 space-x-12 md:space-x-28 items-center">
                 <li><button className="bg-v-primary text-white rounded px-4 md:px-12 py-2">Try Demo</button></li>
@@ -88,7 +88,7 @@ const Headers = () => {
               </p>
             </div>
             <div className="w-full lg:w-2/5 relative hidden md:block h-100 space-y-4">
-              <div className="py-3 px-3 bg-white absolute top-40 -left-24 z-10 rounded text-sm text-v-gray" style={{boxShadow:'0px 0px 40px rgba(188, 188, 188, 0.25)'}}>
+              <div className="py-3 px-3 bg-white absolute top-40 -left-32 z-10 rounded text-sm text-v-gray" style={{boxShadow:'0px 0px 40px rgba(188, 188, 188, 0.25)'}}>
                 <p>Name: Bolatito Ajagbe</p>
                 <p>Account Balance: XXXXXX</p>
                 <p>BVN: 123XXXXX</p>

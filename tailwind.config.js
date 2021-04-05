@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         'v-black': '#373737',
         'v-gray': '#4d4d4d',
-        'v-primary': '#00ACE6'
+        'v-primary': '#00ACE6',
+        'v-africa': '#38C4F3'
       },
       height:{
         '98': "30rem",
