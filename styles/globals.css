@@ -9,41 +9,6 @@
   display: none;
 }
 
-.client {
-  animation-name: client;
-  animation-duration: 30s;
-  -webkit-animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  -webkit-font-smoothing: antialiased;
-}
-
- @keyframes client {
-   0% {
-     left: 0px;
-     top: 0px;
-   }
-
-   25% {
-     left: 25%;
-     top: 0px;
-   }
-
-   50% {
-     left: 50%;
-     top: 0px;
-   }
-
-   75% {
-     left: 75%;
-     top: 0px;
-   }
-
-   100% {
-     left: 100%;
-     top: 0px;
-   }
- }
 @tailwind components;
 @tailwind utilities;
 
