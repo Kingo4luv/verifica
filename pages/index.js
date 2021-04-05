@@ -13,7 +13,7 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <div className="px-4 lg:px-12 w-full">
+      <div className="px-4 lg:px-32 w-full">
         <Headers/>
         <Client/>
         <Feature/>

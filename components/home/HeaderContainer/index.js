@@ -101,7 +101,7 @@ const Headers = () => {
                   <div className="rounded h-32 w-3/5">
                     <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/portrait-african-american-woman-doctor-smiling-hospital_255667-6141.jpg" style={{filter: 'blur(2px)'}} />
                   </div>
-                  <div className="rounded h-3/5 w-4/5 py-2">
+                  <div className="rounded h-3/5 w-full py-2">
                     <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application_231208-743.jpg" />
                   </div>
                 </div>
