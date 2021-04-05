@@ -1,6 +1,7 @@
 import { Transition } from "@headlessui/react";
 import { useState } from "react";
 import MobileNav from "../MobileNav";
+import Typist from 'react-typist';
 
 const Headers = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -91,30 +92,30 @@ const Headers = () => {
               <div className="py-3 px-3 bg-white absolute top-40 -left-32 z-10 rounded text-sm text-v-gray" style={{boxShadow:'0px 0px 40px rgba(188, 188, 188, 0.25)'}}>
                 <p>Name: Bolatito Ajagbe</p>
                 <p>Account Balance: XXXXXX</p>
-                <p>BVN: 123XXXXX</p>
+                <Typist>BVN: 123XXXXX</Typist>
               </div>
               <div className="w-full h-3/5 flex space-x-4">
-                <div className="border rounded h-full w-3/5 overflow-hidden">
-                  <img className="object-cover w-full h-full object-center rounded" src="https://img.freepik.com/free-photo/young-african-american-woman-isolated-yellow-studio-background-facial-expression-beautiful-female-half-length-portrait-concept-human-emotions-facial-expression-standing-crossing-hands_155003-25191.jpg?size=626&ext=jpg&ga=GA1.2.134467567.1616976000"/>
+                <div className="rounded-lg h-full w-3/5 overflow-hidden">
+                  <img className="object-cover w-full h-full object-center rounded-lg" src="https://img.freepik.com/free-photo/young-african-american-woman-isolated-yellow-studio-background-facial-expression-beautiful-female-half-length-portrait-concept-human-emotions-facial-expression-standing-crossing-hands_155003-25191.jpg?size=626&ext=jpg&ga=GA1.2.134467567.1616976000"/>
                 </div>
                 <div className="w-2/5 h-full space-y-2">
-                  <div className="rounded h-32 w-3/5">
-                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/portrait-african-american-woman-doctor-smiling-hospital_255667-6141.jpg" style={{filter: 'blur(2px)'}} />
+                  <div className="rounded-lg h-32 w-3/5">
+                    <img className="object-cover w-full h-full object-center rounded-lg" src="https://image.freepik.com/free-photo/portrait-african-american-woman-doctor-smiling-hospital_255667-6141.jpg" style={{filter: 'blur(2px)'}} />
                   </div>
                   <div className="rounded h-3/5 w-full py-2">
-                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application_231208-743.jpg" />
+                    <img className="object-cover w-full h-full object-center rounded-lg" src="https://image.freepik.com/free-photo/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application_231208-743.jpg" />
                   </div>
                 </div>
               </div>
               <div className="w-full h-3/5 flex space-x-4">
                   <div className="rounded-lg w-2/5 h-52">
-                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/kindliness-african-farmer-feeding-cows-with-grass-farm_73622-913.jpg"/>
+                    <img className="object-cover w-full h-full object-center rounded-lg" src="https://image.freepik.com/free-photo/kindliness-african-farmer-feeding-cows-with-grass-farm_73622-913.jpg"/>
                   </div>
                   <div className="rounded-lg w-3/5">
-                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/countryside-woman-holding-plant-leaves_23-2148761766.jpg" />
+                    <img className="object-cover w-full h-full object-center rounded-lg" src="https://image.freepik.com/free-photo/countryside-woman-holding-plant-leaves_23-2148761766.jpg" />
                   </div>
                   <div className="rounded-lg w-2/6 h-32">
-                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/african-american-business-man-car_1303-9853.jpg" style={{filter: 'blur(2px)'}} />
+                    <img className="object-cover w-full h-full object-center rounded-lg" src="https://image.freepik.com/free-photo/african-american-business-man-car_1303-9853.jpg" style={{filter: 'blur(2px)'}} />
                   </div>
               </div>
             </div>
