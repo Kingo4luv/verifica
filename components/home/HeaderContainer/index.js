@@ -87,18 +87,36 @@ const Headers = () => {
                 Verifrica helps you access a broad range of high - quality <br className="hidden md:block"/> financial data from banks across Africa through a single API.
               </p>
             </div>
-            <div className="w-full lg:w-2/5 relative hidden md:block bg-[#00000]">
-              <div className="py-3 px-3 bg-white absolute top-40 -left-36 z-10 rounded text-sm text-v-gray" style={{boxShadow:'0px 0px 40px rgba(188, 188, 188, 0.25)'}}>
+            <div className="w-full lg:w-2/5 relative hidden md:block h-100 space-y-4">
+              <div className="py-3 px-3 bg-white absolute top-40 -left-24 z-10 rounded text-sm text-v-gray" style={{boxShadow:'0px 0px 40px rgba(188, 188, 188, 0.25)'}}>
                 <p>Name: Bolatito Ajagbe</p>
                 <p>Account Balance: XXXXXX</p>
                 <p>BVN: 123XXXXX</p>
               </div>
-              <div className="border top-0 left-0 absolute rounded" style={{height:'22rem', width:'22rem', background:'url("https://img.freepik.com/free-photo/young-african-american-woman-isolated-yellow-studio-background-facial-expression-beautiful-female-half-length-portrait-concept-human-emotions-facial-expression-standing-crossing-hands_155003-25191.jpg?size=626&ext=jpg&ga=GA1.2.134467567.1616976000")', backgroundSize:"cover", backgroundPosition:"center"}}></div>
-              <div className="border top-0 right-48 absolute rounded" style={{height:'7rem', width:'7rem',  background:'url("https://image.freepik.com/free-photo/portrait-african-american-woman-doctor-smiling-hospital_255667-6141.jpg")', backgroundSize:"cover", backgroundPosition:"center", filter:'blur(2px)'}}></div>
-              <div className="border top-32 right-0 ml-8 absolute rounded" style={{height:'14rem', width:'19rem', background:'url("https://image.freepik.com/free-photo/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application_231208-743.jpg")', backgroundSize:"cover", backgroundPosition:"center"}}></div>
-              <div className="border bottom-8 left-0 absolute rounded-lg" style={{height:'12rem', width:'15rem', background:'url("https://image.freepik.com/free-photo/kindliness-african-farmer-feeding-cows-with-grass-farm_73622-913.jpg")', backgroundSize:"cover", backgroundPosition:"center"}}></div>
-              <div className="border -bottom-8 left-64 absolute rounded-lg" style={{height:'16rem', width:'17rem', background:'url("https://image.freepik.com/free-photo/countryside-woman-holding-plant-leaves_23-2148761766.jpg")', backgroundSize:'cover', backgroundPosition:'center'}}></div>
-              <div className="border bottom-24 right-0 absolute rounded" style={{height:'8rem', width:'8rem', background:'url("https://image.freepik.com/free-photo/african-american-business-man-car_1303-9853.jpg")', backgroundSize:'cover', backgroundPosition:'center', filter: 'blur(2px)'}}></div>
+              <div className="w-full h-3/5 flex space-x-4">
+                <div className="border rounded h-full w-3/5 overflow-hidden">
+                  <img className="object-cover w-full h-full object-center rounded" src="https://img.freepik.com/free-photo/young-african-american-woman-isolated-yellow-studio-background-facial-expression-beautiful-female-half-length-portrait-concept-human-emotions-facial-expression-standing-crossing-hands_155003-25191.jpg?size=626&ext=jpg&ga=GA1.2.134467567.1616976000"/>
+                </div>
+                <div className="w-2/5 h-full space-y-2">
+                  <div className="rounded h-32 w-3/5">
+                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/portrait-african-american-woman-doctor-smiling-hospital_255667-6141.jpg" style={{filter: 'blur(2px)'}} />
+                  </div>
+                  <div className="rounded h-3/5 w-4/5 py-2">
+                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application_231208-743.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div className="w-full h-3/5 flex space-x-4">
+                  <div className="rounded-lg w-2/5 h-52">
+                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/kindliness-african-farmer-feeding-cows-with-grass-farm_73622-913.jpg"/>
+                  </div>
+                  <div className="rounded-lg w-3/5">
+                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/countryside-woman-holding-plant-leaves_23-2148761766.jpg" />
+                  </div>
+                  <div className="rounded-lg w-2/6 h-32">
+                    <img className="object-cover w-full h-full object-center rounded" src="https://image.freepik.com/free-photo/african-american-business-man-car_1303-9853.jpg" style={{filter: 'blur(2px)'}} />
+                  </div>
+              </div>
             </div>
 
           </div>

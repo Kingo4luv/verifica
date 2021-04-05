@@ -7,6 +7,10 @@ module.exports = {
         'v-black': '#373737',
         'v-gray': '#4d4d4d',
         'v-primary': '#00ACE6'
+      },
+      height:{
+        '98': "30rem",
+        '100': "32rem"
       }
     },
   },
